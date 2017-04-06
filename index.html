@@ -14,18 +14,17 @@
 </head>
 <body>
 <div class="menu-shadow"></div>
-<?php include 'includes/header.php';?>
-<?php include 'includes/breadcrumbs-slider.php';?>
+<div w3-include-html="includes/header.html"></div>
+<div w3-include-html="includes/breadcrumbs-slider.html"></div>
 <main>
 	<div class="container-fluid">
 		<div class="row">
-			<?php include 'includes/homepage.php';?>
+			<div w3-include-html="includes/homepage.html"></div>
 		</div>
 	</div>
-	<?php include 'includes/map.php';?>
+	<div w3-include-html="includes/map.html"></div>
 </main>
-
-<?php include 'includes/footer.php';?>
+<div w3-include-html="includes/footer.html"></div>
 
 <script src="assets/vendor/jquery/jquery.min.js"></script>
 <script src="assets/js/map.js"></script>
@@ -37,6 +36,7 @@
 <script src="assets/vendor/particleground/particleground.min.js"></script>
 <script src="assets/vendor/tweenmax/TweenMax.min.js"></script>
 <script src="assets/vendor/tweenmax/ScrollToPlugin.min.js"></script>
+<script src="assets/js/w3data.js"></script>
 <script src="assets/js/app.js"></script>
 </body>
 </html>

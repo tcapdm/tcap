@@ -27,6 +27,7 @@ updateStyleOnResize();
 resizeEventListener();
 menuTransfer();
 breadcrumbsResponsive();
+w3IncludeHTML();
 
 /**
 * --------------------------------------------------------------------------
